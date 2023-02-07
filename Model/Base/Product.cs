@@ -16,9 +16,9 @@ namespace GeekShopping.ProductAPI.Model.Base
         public string Description { get; set; }
 
         [Column("category_name"), Required, StringLength(50)]
-        public string Category { get; set; }
+        public string CategoryName { get; set; }
 
         [Column("image_url"), Required, StringLength(300)]
-        public string ImageUrl { get; set; }
+        public string ImageURL { get; set; }
     }
 }
